@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #999;
+
+}
+.button{
+    background-color: red;
+    border: none;
+    color: #fff;
+    width: 200px;
+    height: 60px;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.d-none{
+    display: none;
+}
+.container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.popover{
+    position: absolute;
+    top: 105px;
+    width: 200px;
+    height: 60px;
+    border: 1px solid;
+    margin-bottom: 5px;
+}
+.popover_tittle{
+    text-align: center;
+    background-color: #999;
+    color: #000;
+}
+.popover_desc{
+    text-align: center;
+    color: #000;
+    vertical-align: middle;
+}
