@@ -1,5 +1,5 @@
-let button = document.querySelector('button');
+let button = document.querySelector("button");
 
-button.addEventListener('click',(e)=>{
-  e.target.previousElementSibling.classList.toggle('d-none')
-})
+button.addEventListener("click", (e) => {
+  e.target.previousElementSibling.classList.toggle("d-none");
+});
